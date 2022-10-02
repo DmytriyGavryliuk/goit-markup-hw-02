@@ -1,0 +1,268 @@
+/* основной цвет текста color: #212121 */
+/* вторичный цвет текста color: #757575 *
+/* белый цыет color: #FFFFFF */
+/* акцент color: #2196F3 */
+/* футер номер и телефон color: rgba(255, 255, 255, 0.6); */
+
+body {
+    color: #212121;
+    font-family:'Roboto', sans-serif ;
+    letter-spacing: 0.03em;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+/* Logo */
+
+.logo {
+    color: #000000;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+}
+
+.footer-logo {
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+}
+
+/* header */
+
+.header {
+    background-color: #fff;
+}
+
+/* Site nav */
+
+.site-nav .link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+}
+
+
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+.site-nav .link:current {
+    color: #2196F3;
+}
+
+.nav-info {
+color: #757575;
+font-weight: 500;
+font-size: 14px;
+line-height: 1, 14;
+letter-spacing: 0.02em;
+}
+
+.nav-info:hover,
+.nav-info:focus {
+color: #2196F3;
+}
+
+
+/* hero-section */
+
+.hero-section {
+    background-color: #2F303A;
+}
+
+.hero-section .title {
+    color: #FFFFFF;
+    font-style: 400;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    text-align: center;
+    letter-spacing: 0.06em;
+        
+}
+
+.hero-section .button {
+    background-color:#2196F3 ;
+    color:#fff;
+    font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+}
+
+/* Studio button */
+
+.button:hover, 
+.button:focus {
+    background-color: #188CE8;
+    cursor: pointer;
+}
+/* Portfolio-button */
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background-color:#2196F3;
+    color:#fff;
+    cursor: pointer;
+}
+
+.portfolio-button:current{
+    background-color: #2196F3;
+}
+
+/* benefits-section */
+
+.benefits-section {
+    background-color: #fff;
+    
+}
+
+
+.benefits-section .title {
+font-style: 400;
+font-weight: 700;
+font-size: 36px;
+line-height: 1, 16;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.benefits-section .list {
+    font-style: 400;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.benefits-section .text {
+    color: #757575;
+    font-style: 400;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+}
+
+/* about-section */
+
+.about-section {
+    background-color: #fff;
+    
+}
+
+.about-section .title {
+    font-style: 400;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1, 16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/* team-section */
+
+.team-section {
+    background-color: #F5F4FA;
+    
+}
+
+.team-section .title {
+     font-style: 400;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+.team-section .name {
+    font-style: 400;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,18;
+    letter-spacing: 0.03em;
+}
+
+.team-section .position {
+    color: #757575;
+    font-style: 400;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,18;
+    letter-spacing: 0.03em;
+}
+/* Portfolio section */
+
+.portfolio-section .title {
+    color: #212121;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-decoration:none
+}
+
+.portfolio-section .text {
+    color: #757575;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    text-decoration:none
+}
+
+.portfolio-section .link {
+    text-decoration: none
+}
+/* footer */
+
+.footer{
+    background-color:#2F303A ;
+    color: #fff;
+}
+
+.footer .adress {
+color: #fff;
+font-style: 400;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
+.footer .info {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: 400;
+    font-weight: 400;
+    line-height: 1.71;
+     line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.footer .adress:hover,
+.footer .adress:focus {
+color: #2196F3;
+}
+
+.footer .info:hover,
+.footer .info:focus {
+color: #2196F3;
+}
